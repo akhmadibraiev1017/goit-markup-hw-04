@@ -5,7 +5,7 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start; /* Исправлено по требованию ментора */
 }
 
 .footer-left-block {
@@ -38,6 +38,7 @@
 }
 
 .footer-social-box {
+  margin-left: 0; /* Убедись, что нет лишних марджинов */
 }
 
 .footer-social-title {
@@ -47,15 +48,14 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  margin-top: 0;
 }
 
 .footer-soc-list {
   display: flex;
   gap: 16px;
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .footer-soc-item {
@@ -77,8 +77,4 @@
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #31d0aa;
-}
-
-.footer-soc-icon {
-  fill: #f4f4fd;
 }

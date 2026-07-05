@@ -1,20 +1,3 @@
-.features-title {
-  color: #2e2f42;
-  text-align: left;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.features-text {
-  color: #434455;
-  text-align: left;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .features ul {
   display: flex;
   gap: 24px;
@@ -35,14 +18,25 @@
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
-.features-icon-thumb svg {
-  display: block;
-  width: 64px;
-  height: 64px;
+.features-title {
+  color: #2e2f42;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
-.features-icon-thumb svg use {
-  fill: currentColor;
+.features-text {
+  color: #434455;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: 0;
 }
