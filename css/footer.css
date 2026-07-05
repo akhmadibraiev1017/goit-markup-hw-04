@@ -78,3 +78,7 @@
 .footer-soc-link:focus {
   background-color: #31d0aa;
 }
+
+.footer-soc-icon {
+  fill: #f4f4fd;
+}
