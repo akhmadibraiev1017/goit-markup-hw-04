@@ -18,6 +18,9 @@
 .features ul {
   display: flex;
   gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .features ul li {
@@ -28,13 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
+  height: 112px;
+  background-color: #f4f4fd;
   border-radius: 4px;
-  margin-bottom: 30px;
-  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
+
 .features-icon-thumb svg {
   display: block;
   width: 64px;
